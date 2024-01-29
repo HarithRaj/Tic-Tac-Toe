@@ -73,7 +73,7 @@ def Game():
         join_board()
         check_Winner()
     
-    return print("Tied")
+    print("Match Tied")
 
 def func():
     print("Objective")
@@ -102,10 +102,3 @@ print()
 func()
 print()
 Game()
-
-
-
-
-
-
-
