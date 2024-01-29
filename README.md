@@ -1,1 +1,1 @@
-# Tic-Tac-Toe
+Tic-tac-toe, often known as noughts and crosses, is a classic paper-and-pencil game enjoyed by people of all ages. Played on a 3x3 grid, two players take turns marking spaces with their designated symbol—usually "X" for one player and "O" for the other—with the goal of creating a row, column, or diagonal of their symbol before their opponent does. Despite its simplicity, tic-tac-toe offers strategic depth and fosters critical thinking skills. Let's dive into the timeless fun of tic-tac-toe!
