@@ -48,11 +48,10 @@ def timer(seconds):
         time.sleep(2)
         seconds-=1
         break
-    
 
 def Game():
     print("Welcome to Tic-Tac-Toe Game!")
-    # join_board()
+    join_board()
     for i in range(9):
         if  i%2== 0:
             Player = "Player 1"
@@ -76,9 +75,34 @@ def Game():
     
     return print("Tied")
 
+def func():
+    print("Objective")
+    print() 
+    print("The game is played by two players, typically X and O, who take turns marking spaces in a 3x3 grid. The goal is to be the first to get three of your symbols (X or O) in a row, either horizontally, vertically, or diagonally.")
+    print()
+    input('Press ENTER KEY to VIEW INSTRUCTIONS')
+    print()
+    print("INSTRUCTIONS")
+    print()
+    print("1.The top-left cell is at coordinates (0, 0).\n2.The top-center cell is at coordinates (0, 2).")
+    print("3.The top-right cell is at coordinates (0, 4).\n4.The middle-left cell is at coordinates (2, 0).")
+    print("5.The middle-center cell is at coordinates (2, 2).\n6.The middle-right cell is at coordinates (2, 4).")
+    print("7.The bottom-left cell is at coordinates (4, 0).\n8.The bottom-center cell is at coordinates (4, 2).")
+    print("9.The bottom-right cell is at coordinates (4, 4).")
+    print()
+    print("How to Decide the Winner")
+    print()
+    print("1. Winning Conditions: The game ends when one player achieves three of their symbols in a row, either horizontally, vertically, or diagonally.\n   The player who achieves this first is declared the winner..")
+    print("2. Draw Condition: If all cells are filled and no player has achieved three in a row, the game is a draw.")
+    print()
+    input('Press ENTER KEY to START THE GAME')
 
 timer(5)
+print()
+func()
+print()
 Game()
+
 
 
 
