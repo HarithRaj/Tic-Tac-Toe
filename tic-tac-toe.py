@@ -17,7 +17,7 @@ def join_board():
 def check_Winner():
 
 #Checking row
-    for i in range(2):
+    for i in range(3):
         if (board[i*2][0]=="X" and board[i*2][2]=="X" and board[i*2][4]=="X"):
             print("Player 1 Won Congratulations on your win in Tic Tac Toe!")
             exit()
@@ -26,7 +26,7 @@ def check_Winner():
             exit()
 
 #Checking Col
-    for i in range(2):
+    for i in range(3):
         if (board[0][i*2]=="X" and board[2][i*2]=="X" and board[4][i*2]=="X"):
             print("Player 1 Won Congratulations on your win in Tic Tac Toe!")
             exit()
