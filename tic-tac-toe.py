@@ -76,11 +76,11 @@ def Game():
     print("Match Tied")
 
 def func():
-    print("Objective")
+    print("OBJECTIVE")
     print() 
     print("The game is played by two players, typically X and O, who take turns marking spaces in a 3x3 grid. The goal is to be the first to get three of your symbols (X or O) in a row, either horizontally, vertically, or diagonally.")
     print()
-    input('Press ENTER KEY to VIEW INSTRUCTIONS')
+    input('PRESS ENTER KEY TO VIEW INSTRUCTIONS')
     print()
     print("INSTRUCTIONS")
     print()
@@ -95,7 +95,7 @@ def func():
     print("1. Winning Conditions: The game ends when one player achieves three of their symbols in a row, either horizontally, vertically, or diagonally.\n   The player who achieves this first is declared the winner..")
     print("2. Draw Condition: If all cells are filled and no player has achieved three in a row, the game is a draw.")
     print()
-    input('Press ENTER KEY to START THE GAME')
+    input('PRESS ENTER KEY TO START THE GAME')
 
 timer(5)
 print()
