@@ -1,4 +1,5 @@
 import time
+import os
 choice=" "
 board =[
     [choice, "|", choice, "|", choice],
@@ -9,6 +10,7 @@ board =[
     ]
 
 def join_board():
+    os.system('cls')
     for row in board:
         joined_board = " ".join(row)
         print(joined_board)
